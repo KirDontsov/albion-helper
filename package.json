@@ -1,0 +1,10 @@
+{
+  "name": "albion-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  }
+}
