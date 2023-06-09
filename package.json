@@ -5,6 +5,14 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-converter": "^4.6.0",
+    "@tensorflow/tfjs-core": "^4.6.0",
+    "@tensorflow/tfjs-node": "^4.6.0",
+    "jpeg-js": "^0.4.4",
+    "opencv.js": "^1.2.1",
+    "png-to-jpeg": "^1.0.1",
+    "pngjs": "^7.0.0",
     "robotjs": "^0.6.0"
   }
 }
