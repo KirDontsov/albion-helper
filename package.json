@@ -13,6 +13,7 @@
     "opencv.js": "^1.2.1",
     "png-to-jpeg": "^1.0.1",
     "pngjs": "^7.0.0",
+    "prettier": "^2.8.8",
     "robotjs": "^0.6.0"
   }
 }
