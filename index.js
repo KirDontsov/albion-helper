@@ -9,12 +9,12 @@ function main() {
 
   let loopCount = 0;
   while (loopCount < 1000) {
-    robot.moveMouseSmooth(screen.width / 2 - 50, screen.height / 2 + 40);
-    robot.mouseClick();
-    sleep(1000 * 4);
-    robot.moveMouseSmooth(screen.width / 2 + 100, screen.height / 2 - 60);
-    robot.mouseClick();
-    sleep(1000 * 4);
+    robot.moveMouseSmooth(screen.width / 2 + 50, screen.height / 2 - 150);
+    // robot.mouseClick();
+    sleep(1000 * 2);
+    robot.moveMouseSmooth(screen.width / 2 + 50, screen.height / 2 - 50);
+    // robot.mouseClick();
+    sleep(1000 * 2);
     // robot.moveMouseSmooth(screen.width/2 + 90, screen.height/2 - 150);
     // robot.mouseClick();
     // sleep(1000 * 5);
