@@ -9,10 +9,10 @@ function main() {
 
   let loopCount = 0;
   while (loopCount < 1000) {
-    robot.moveMouseSmooth(screen.width / 2 - 130, screen.height / 2 - 50);
+    robot.moveMouseSmooth(screen.width / 2 - 50, screen.height / 2 + 40);
     robot.mouseClick();
     sleep(1000 * 4);
-    robot.moveMouseSmooth(screen.width / 2 + 130, screen.height / 2 - 100);
+    robot.moveMouseSmooth(screen.width / 2 + 100, screen.height / 2 - 60);
     robot.mouseClick();
     sleep(1000 * 4);
     // robot.moveMouseSmooth(screen.width/2 + 90, screen.height/2 - 150);
@@ -21,11 +21,11 @@ function main() {
     robot.moveMouseSmooth(screen.width / 2 - getRandomNumber(500), screen.height / 2 - getRandomNumber(200));
     sleep(1000 * 8);
     robot.keyTap('i');
-    sleep(1000 * 10);
+    sleep(1000 * 5);
     robot.keyTap('i');
     sleep(1000 * 2);
     robot.moveMouseSmooth(screen.width / 2 - getRandomNumber(500), screen.height / 2 - getRandomNumber(100));
-    sleep(1000 * 10);
+    sleep(1000 * 5);
     loopCount += 1;
   }
 
